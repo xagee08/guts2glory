@@ -13,7 +13,17 @@
     2025
   ],
   "generated": "2026-08-24",
-  "manager_map": {},
+  "manager_map": {
+    "Chris P": "Christopher",
+    "drako wells": "Drako",
+    "James Phillips": "James",
+    "brantley cumberland": "Brantley",
+    "Xavier Agee": "Xavier",
+    "Jaron Brown": "Jaron",
+    "Justin Roberts": "Justin",
+    "Breland James": "Breland",
+    "Antoine Armstrong": "Antoine"
+  },
   "champions": [
     {
       "year": 2025,
@@ -661,28 +671,28 @@
       {
         "rank": 1,
         "team": "Jaron's Scary Team",
-        "manager": "Jaron Brown",
+        "manager": "Jaron",
         "record": "0-0",
         "points": 0.0
       },
       {
         "rank": 2,
         "team": "Pack Attack",
-        "manager": "James Phillips",
+        "manager": "James",
         "record": "0-0",
         "points": 0.0
       },
       {
         "rank": 3,
         "team": "drake shiesty",
-        "manager": "drako wells",
+        "manager": "Drako",
         "record": "0-0",
         "points": 0.0
       },
       {
         "rank": 4,
         "team": "WE THE ONES \u261d\ud83c\udffe",
-        "manager": "Xavier Agee",
+        "manager": "Xavier",
         "record": "0-0",
         "points": 0.0
       },
@@ -703,28 +713,28 @@
       {
         "rank": 7,
         "team": "In Shough We Trust ",
-        "manager": "Antoine Armstrong",
+        "manager": "Antoine",
         "record": "0-0",
         "points": 0.0
       },
       {
         "rank": 8,
         "team": "Aint No Snitchin ",
-        "manager": "brantley cumberland",
+        "manager": "Brantley",
         "record": "0-0",
         "points": 0.0
       },
       {
         "rank": 9,
         "team": "Chris's Competitive Team",
-        "manager": "Chris P",
+        "manager": "Christopher",
         "record": "0-0",
         "points": 0.0
       },
       {
         "rank": 10,
         "team": "JROB",
-        "manager": "Justin Roberts",
+        "manager": "Justin",
         "record": "0-0",
         "points": 0.0
       },
@@ -738,7 +748,7 @@
       {
         "rank": 12,
         "team": "Breland's Best Team",
-        "manager": "Breland James",
+        "manager": "Breland",
         "record": "0-0",
         "points": 0.0
       }
@@ -1437,28 +1447,28 @@
       {
         "rank": 1,
         "team": "Jaron's Scary Team",
-        "manager": "Jaron Brown",
+        "manager": "Jaron",
         "record": "0-0",
         "points": 0.0
       },
       {
         "rank": 2,
         "team": "Pack Attack",
-        "manager": "James Phillips",
+        "manager": "James",
         "record": "0-0",
         "points": 0.0
       },
       {
         "rank": 3,
         "team": "drake shiesty",
-        "manager": "drako wells",
+        "manager": "Drako",
         "record": "0-0",
         "points": 0.0
       },
       {
         "rank": 4,
         "team": "WE THE ONES \u261d\ud83c\udffe",
-        "manager": "Xavier Agee",
+        "manager": "Xavier",
         "record": "0-0",
         "points": 0.0
       },
@@ -1479,28 +1489,28 @@
       {
         "rank": 7,
         "team": "In Shough We Trust ",
-        "manager": "Antoine Armstrong",
+        "manager": "Antoine",
         "record": "0-0",
         "points": 0.0
       },
       {
         "rank": 8,
         "team": "Aint No Snitchin ",
-        "manager": "brantley cumberland",
+        "manager": "Brantley",
         "record": "0-0",
         "points": 0.0
       },
       {
         "rank": 9,
         "team": "Chris's Competitive Team",
-        "manager": "Chris P",
+        "manager": "Christopher",
         "record": "0-0",
         "points": 0.0
       },
       {
         "rank": 10,
         "team": "JROB",
-        "manager": "Justin Roberts",
+        "manager": "Justin",
         "record": "0-0",
         "points": 0.0
       },
@@ -1514,7 +1524,7 @@
       {
         "rank": 12,
         "team": "Breland's Best Team",
-        "manager": "Breland James",
+        "manager": "Breland",
         "record": "0-0",
         "points": 0.0
       }
@@ -1591,7 +1601,7 @@
       {
         "year": 2026,
         "team": "Jaron's Scary Team",
-        "manager": "Jaron Brown",
+        "manager": "Jaron",
         "points": 0.0
       },
       {
@@ -1705,14 +1715,14 @@
   "all_time": [
     {
       "manager": "Drako",
-      "seasons": 8,
+      "seasons": 9,
       "wins": 62,
       "losses": 47,
       "pct": 0.569,
       "points": 13292.0,
       "ppg": 121.9,
       "titles": 2,
-      "podiums": 4
+      "podiums": 5
     },
     {
       "manager": "Michael",
@@ -1727,7 +1737,7 @@
     },
     {
       "manager": "Christopher",
-      "seasons": 8,
+      "seasons": 9,
       "wins": 68,
       "losses": 41,
       "pct": 0.624,
@@ -1738,14 +1748,14 @@
     },
     {
       "manager": "Jaron",
-      "seasons": 8,
+      "seasons": 9,
       "wins": 66,
       "losses": 43,
       "pct": 0.606,
       "points": 13257.0,
       "ppg": 121.6,
       "titles": 1,
-      "podiums": 4
+      "podiums": 5
     },
     {
       "manager": "Davis",
@@ -1760,7 +1770,7 @@
     },
     {
       "manager": "Xavier",
-      "seasons": 8,
+      "seasons": 9,
       "wins": 49,
       "losses": 60,
       "pct": 0.45,
@@ -1771,7 +1781,7 @@
     },
     {
       "manager": "Justin",
-      "seasons": 8,
+      "seasons": 9,
       "wins": 54,
       "losses": 55,
       "pct": 0.495,
@@ -1782,7 +1792,7 @@
     },
     {
       "manager": "Brantley",
-      "seasons": 4,
+      "seasons": 5,
       "wins": 34,
       "losses": 22,
       "pct": 0.607,
@@ -1792,35 +1802,13 @@
       "podiums": 1
     },
     {
-      "manager": "Jaron Brown",
-      "seasons": 1,
-      "wins": 0,
-      "losses": 0,
-      "pct": 0,
-      "points": 0.0,
-      "ppg": 0,
-      "titles": 0,
-      "podiums": 1
-    },
-    {
-      "manager": "James Phillips",
-      "seasons": 1,
-      "wins": 0,
-      "losses": 0,
-      "pct": 0,
-      "points": 0.0,
-      "ppg": 0,
-      "titles": 0,
-      "podiums": 1
-    },
-    {
-      "manager": "drako wells",
-      "seasons": 1,
-      "wins": 0,
-      "losses": 0,
-      "pct": 0,
-      "points": 0.0,
-      "ppg": 0,
+      "manager": "James",
+      "seasons": 3,
+      "wins": 12,
+      "losses": 16,
+      "pct": 0.429,
+      "points": 3229.0,
+      "ppg": 115.3,
       "titles": 0,
       "podiums": 1
     },
@@ -1870,7 +1858,7 @@
     },
     {
       "manager": "Breland",
-      "seasons": 8,
+      "seasons": 9,
       "wins": 55,
       "losses": 54,
       "pct": 0.505,
@@ -1902,17 +1890,6 @@
       "podiums": 0
     },
     {
-      "manager": "James",
-      "seasons": 2,
-      "wins": 12,
-      "losses": 16,
-      "pct": 0.429,
-      "points": 3229.0,
-      "ppg": 115.3,
-      "titles": 0,
-      "podiums": 0
-    },
-    {
       "manager": "Shameka",
       "seasons": 4,
       "wins": 21,
@@ -1936,7 +1913,7 @@
     },
     {
       "manager": "Antoine",
-      "seasons": 4,
+      "seasons": 5,
       "wins": 21,
       "losses": 34,
       "pct": 0.382,
@@ -1979,74 +1956,8 @@
       "podiums": 0
     },
     {
-      "manager": "Xavier Agee",
-      "seasons": 1,
-      "wins": 0,
-      "losses": 0,
-      "pct": 0,
-      "points": 0.0,
-      "ppg": 0,
-      "titles": 0,
-      "podiums": 0
-    },
-    {
       "manager": "",
       "seasons": 3,
-      "wins": 0,
-      "losses": 0,
-      "pct": 0,
-      "points": 0.0,
-      "ppg": 0,
-      "titles": 0,
-      "podiums": 0
-    },
-    {
-      "manager": "Antoine Armstrong",
-      "seasons": 1,
-      "wins": 0,
-      "losses": 0,
-      "pct": 0,
-      "points": 0.0,
-      "ppg": 0,
-      "titles": 0,
-      "podiums": 0
-    },
-    {
-      "manager": "brantley cumberland",
-      "seasons": 1,
-      "wins": 0,
-      "losses": 0,
-      "pct": 0,
-      "points": 0.0,
-      "ppg": 0,
-      "titles": 0,
-      "podiums": 0
-    },
-    {
-      "manager": "Chris P",
-      "seasons": 1,
-      "wins": 0,
-      "losses": 0,
-      "pct": 0,
-      "points": 0.0,
-      "ppg": 0,
-      "titles": 0,
-      "podiums": 0
-    },
-    {
-      "manager": "Justin Roberts",
-      "seasons": 1,
-      "wins": 0,
-      "losses": 0,
-      "pct": 0,
-      "points": 0.0,
-      "ppg": 0,
-      "titles": 0,
-      "podiums": 0
-    },
-    {
-      "manager": "Breland James",
-      "seasons": 1,
       "wins": 0,
       "losses": 0,
       "pct": 0,
