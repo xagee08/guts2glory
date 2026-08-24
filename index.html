@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guts2Glory — League History</title>
+<meta name="description" content="The official league history of Guts2Glory fantasy football: champions, standings, records and all-time leaders since 2018.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏆</text></svg>">
+<style>
+:root{
+  --navy:#12305c; --navy-d:#0d2244; --gold:#c8991a; --gold-l:#f0c14b;
+  --ink:#1b2637; --muted:#5f7288; --line:#dfe6ef;
+  --bg:#f4f7fb; --card:#ffffff;
+  --shadow:0 1px 2px rgba(18,48,92,.06),0 6px 18px rgba(18,48,92,.07);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+  line-height:1.5;-webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+
+/* ---------- header ---------- */
+header{
+  background:linear-gradient(150deg,var(--navy) 0%,var(--navy-d) 100%);
+  color:#fff;padding:34px 0 0;position:relative;overflow:hidden;
+}
+header::after{content:"";position:absolute;inset:0;
+  background:radial-gradient(circle at 88% 8%,rgba(240,193,75,.20),transparent 45%);pointer-events:none}
+.brandrow{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.crest{
+  width:56px;height:56px;flex:0 0 56px;border-radius:14px;
+  background:linear-gradient(160deg,var(--gold-l),var(--gold));
+  display:grid;place-items:center;font-size:28px;
+  box-shadow:0 4px 14px rgba(0,0,0,.25)
+}
+h1{margin:0;font-size:clamp(28px,5.2vw,44px);font-weight:800;letter-spacing:-.5px;line-height:1.05}
+h1 .two{color:var(--gold-l)}
+.tagline{margin:6px 0 0;color:#b9c9de;font-size:15px;max-width:56ch}
+.est{
+  margin-left:auto;border:1px solid rgba(255,255,255,.28);border-radius:999px;
+  padding:6px 14px;font-size:12px;letter-spacing:1.4px;text-transform:uppercase;color:#dbe6f3;white-space:nowrap
+}
+.statstrip{display:flex;gap:10px;flex-wrap:wrap;margin:26px 0 0;padding-bottom:26px}
+.stat{
+  background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.14);
+  border-radius:12px;padding:11px 16px;min-width:104px;backdrop-filter:blur(4px)
+}
+.stat b{display:block;font-size:21px;color:var(--gold-l);font-weight:800;line-height:1.2}
+.stat span{font-size:11px;text-transform:uppercase;letter-spacing:.9px;color:#b9c9de}
+
+/* ---------- tabs ---------- */
+nav.tabs{
+  position:sticky;top:0;z-index:20;background:rgba(244,247,251,.94);
+  backdrop-filter:blur(10px);border-bottom:1px solid var(--line)
+}
+.tabs .wrap{display:flex;gap:8px;overflow-x:auto;padding:12px 20px;scrollbar-width:none}
+.tabs .wrap::-webkit-scrollbar{display:none}
+.tab{
+  border:1px solid var(--line);background:var(--card);color:var(--muted);
+  padding:9px 18px;border-radius:999px;font-size:13px;font-weight:600;cursor:pointer;
+  white-space:nowrap;transition:.16s;letter-spacing:.3px
+}
+.tab:hover{border-color:#b9c7d8;color:var(--navy)}
+.tab[aria-selected="true"]{background:var(--navy);border-color:var(--navy);color:#fff;box-shadow:var(--shadow)}
+
+main{padding:32px 0 72px}
+.panel[hidden]{display:none}
+h2{font-size:13px;text-transform:uppercase;letter-spacing:1.6px;color:var(--muted);
+   margin:0 0 14px;font-weight:700;display:flex;align-items:center;gap:10px}
+h2::after{content:"";flex:1;height:1px;background:var(--line)}
+.sub{color:var(--muted);font-size:14px;margin:-6px 0 20px}
+
+/* ---------- reigning champ hero ---------- */
+.hero{
+  background:linear-gradient(120deg,#fffdf6,#fff8e6);
+  border:1px solid #f0dfae;border-left:5px solid var(--gold);
+  border-radius:16px;padding:24px 26px;margin-bottom:30px;
+  display:flex;gap:22px;align-items:center;flex-wrap:wrap;box-shadow:var(--shadow)
+}
+.hero .trophy{font-size:52px;line-height:1}
+.hero .kicker{font-size:11px;text-transform:uppercase;letter-spacing:1.6px;color:#9a7412;font-weight:800}
+.hero .team{font-size:clamp(22px,3.6vw,30px);font-weight:800;color:var(--navy);margin:3px 0 2px;letter-spacing:-.4px}
+.hero .who{color:#7a6320;font-size:14px}
+.hero .badge{margin-left:auto;background:var(--navy);color:#fff;border-radius:12px;
+  padding:12px 20px;text-align:center;white-space:nowrap}
+.hero .badge b{display:block;font-size:22px;color:var(--gold-l);font-weight:800}
+.hero .badge span{font-size:10px;letter-spacing:1.2px;text-transform:uppercase;opacity:.8}
+
+/* ---------- champion cards ---------- */
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(232px,1fr))}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;
+  box-shadow:var(--shadow);transition:transform .18s,box-shadow .18s,border-color .18s
+}
+.card:hover{transform:translateY(-3px);border-color:#c9d5e4;
+  box-shadow:0 3px 6px rgba(18,48,92,.07),0 14px 32px rgba(18,48,92,.12)}
+.card .yr{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+.card .yr b{font-size:20px;font-weight:800;color:var(--navy)}
+.ring{background:#fdf5df;color:#8a6a10;border:1px solid #f0dfae;border-radius:999px;
+  padding:3px 10px;font-size:11px;font-weight:700;letter-spacing:.4px}
+.card .tm{font-weight:700;font-size:16px;color:var(--ink);margin-bottom:3px}
+.card .mg{color:var(--muted);font-size:13px}
+.card .rc{margin-top:12px;padding-top:11px;border-top:1px solid var(--line);
+  font-size:12px;color:var(--muted);display:flex;justify-content:space-between}
+.card .rc b{color:var(--navy);font-variant-numeric:tabular-nums}
+
+/* ---------- year controls ---------- */
+.yearbar{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-bottom:18px}
+select{
+  appearance:none;background:var(--card) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='7'%3E%3Cpath d='M0 0h11L5.5 7z' fill='%235f7288'/%3E%3C/svg%3E") no-repeat right 14px center;
+  border:1px solid var(--line);border-radius:10px;padding:10px 38px 10px 14px;
+  font-size:14px;font-weight:600;color:var(--navy);cursor:pointer;font-family:inherit
+}
+.toggle{display:inline-flex;background:#e7edf5;border-radius:10px;padding:3px}
+.toggle button{
+  border:0;background:transparent;padding:7px 15px;border-radius:8px;font-size:12.5px;
+  font-weight:600;color:var(--muted);cursor:pointer;font-family:inherit;transition:.15s
+}
+.toggle button[aria-pressed="true"]{background:var(--card);color:var(--navy);box-shadow:0 1px 3px rgba(18,48,92,.14)}
+
+/* ---------- tables ---------- */
+.tablewrap{background:var(--card);border:1px solid var(--line);border-radius:14px;
+  overflow:hidden;box-shadow:var(--shadow);margin-bottom:26px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{
+  background:#eef3f9;color:var(--muted);font-size:11px;text-transform:uppercase;
+  letter-spacing:1px;text-align:left;padding:12px 16px;font-weight:700;border-bottom:1px solid var(--line);white-space:nowrap
+}
+td{padding:12px 16px;border-bottom:1px solid #eef2f7}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover{background:#f7fafd}
+.num{text-align:right;font-variant-numeric:tabular-nums}
+.rk{width:52px;font-weight:800;color:var(--muted);font-variant-numeric:tabular-nums}
+tr.gold{background:linear-gradient(90deg,#fffbef,#fff 62%)}
+tr.gold:hover{background:linear-gradient(90deg,#fff7e0,#fdfdff 62%)}
+tr.gold .rk{color:var(--gold)}
+.tname{font-weight:600}
+.mname{color:var(--muted);font-size:13px}
+.pill{display:inline-block;background:#eef3f9;border-radius:6px;padding:2px 9px;
+  font-size:12.5px;font-weight:700;color:var(--navy);font-variant-numeric:tabular-nums}
+.best{color:var(--gold);font-weight:800}
+.tcap{padding:14px 16px 0;font-weight:700;color:var(--navy);font-size:14.5px}
+.tcap small{display:block;font-weight:400;color:var(--muted);font-size:12.5px;margin-top:2px}
+footer{border-top:1px solid var(--line);padding:26px 0 40px;color:var(--muted);font-size:13px;text-align:center}
+footer b{color:var(--navy)}
+.err{background:#fff4f4;border:1px solid #f0c4c4;color:#8c2b2b;padding:16px 18px;border-radius:12px;font-size:14px}
+@media(max-width:560px){
+  .hero .badge{margin-left:0;width:100%}
+  th,td{padding:10px 12px}
+  .hide-s{display:none}
+}
+@media print{
+  header{background:#12305c!important;-webkit-print-color-adjust:exact}
+  nav.tabs{display:none} .panel[hidden]{display:block!important} .card:hover{transform:none}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="brandrow">
+      <div class="crest">🏆</div>
+      <div>
+        <h1>GUTS<span class="two">2</span>GLORY</h1>
+        <p class="tagline">The official league record book — champions, standings, and all-time achievements.</p>
+      </div>
+      <div class="est" id="est">Est. 2018</div>
+    </div>
+    <div class="statstrip" id="statstrip"></div>
+  </div>
+</header>
+
+<nav class="tabs">
+  <div class="wrap" role="tablist">
+    <button class="tab" role="tab" data-panel="champions" aria-selected="true">Champions</button>
+    <button class="tab" role="tab" data-panel="standings" aria-selected="false">Standings</button>
+    <button class="tab" role="tab" data-panel="records" aria-selected="false">Hall of Fame</button>
+    <button class="tab" role="tab" data-panel="alltime" aria-selected="false">All-Time Leaders</button>
+  </div>
+</nav>
+
+<main class="wrap">
+  <div id="boot" class="err" hidden></div>
+
+  <section class="panel" id="p-champions">
+    <div id="hero"></div>
+    <h2>Championship Wall</h2>
+    <div class="grid" id="champgrid"></div>
+  </section>
+
+  <section class="panel" id="p-standings" hidden>
+    <h2>Season Standings</h2>
+    <div class="yearbar">
+      <select id="yearsel" aria-label="Select season"></select>
+      <div class="toggle" role="group" aria-label="Standings view">
+        <button id="btn-final" aria-pressed="true">Final Standings</button>
+        <button id="btn-reg" aria-pressed="false">Regular Season</button>
+      </div>
+    </div>
+    <div id="standings"></div>
+  </section>
+
+  <section class="panel" id="p-records" hidden>
+    <h2>Hall of Fame</h2>
+    <p class="sub">Single-season bests by year. League records are highlighted in gold.</p>
+    <div id="records"></div>
+  </section>
+
+  <section class="panel" id="p-alltime" hidden>
+    <h2>All-Time Manager Leaders</h2>
+    <p class="sub">Regular-season results across every season on record. Sorted by titles, then podium finishes.</p>
+    <div id="alltime"></div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <b>Guts2Glory</b> Fantasy Football · <span id="footmeta"></span>
+</footer>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const medal = r => r === 1 ? '🥇' : r === 2 ? '🥈' : r === 3 ? '🥉' : r;
+const n1 = v => Number(v).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1});
+const n2 = v => Number(v).toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2});
+
+let D = null, view = 'final';
+
+/* ---------------- render ---------------- */
+function renderHeader(){
+  const years = Object.keys(D.final_standings).map(Number).sort();
+  const latest = Math.max(...years);
+  const teams = D.final_standings[latest].length;
+  $('#est').textContent = 'Est. ' + D.established;
+  $('#statstrip').innerHTML = [
+    [years.length, 'Seasons'],
+    [teams, 'Teams'],
+    [new Set(D.champions.map(c => c.manager)).size, 'Champions'],
+    [D.all_time.reduce((a,b) => a + b.wins, 0), 'Games Won'],
+    [n1(Math.max(...D.hall_of_fame.single_week_team.map(w => w.points))), 'Best Week']
+  ].map(([b,s]) => `<div class="stat"><b>${b}</b><span>${s}</span></div>`).join('');
+  $('#footmeta').textContent =
+    `${Math.min(...years)}–${latest} · ${D.legacy_platform ? 'NFL.com ' + D.legacy_seasons[0] + '–' + D.legacy_seasons.slice(-1)[0] : ''}`
+    + (D.generated ? ' · updated ' + D.generated : '');
+}
+
+function renderChampions(){
+  const cs = [...D.champions].sort((a,b) => b.year - a.year);
+  const cur = cs[0];
+  const rings = D.all_time.filter(m => m.titles > 0).sort((a,b) => b.titles - a.titles);
+  $('#hero').innerHTML = `
+    <div class="hero">
+      <div class="trophy">🏆</div>
+      <div>
+        <div class="kicker">Reigning Champion · ${cur.year}</div>
+        <div class="team">${esc(cur.team)}</div>
+        <div class="who">Managed by <strong>${esc(cur.manager)}</strong> · ${esc(cur.record)} regular season</div>
+      </div>
+      <div class="badge"><b>${rings[0].titles}</b><span>Most Titles · ${esc(rings[0].manager)}</span></div>
+    </div>`;
+  const titles = {}; D.champions.forEach(c => titles[c.manager] = (titles[c.manager]||0)+1);
+  $('#champgrid').innerHTML = cs.map(c => `
+    <article class="card">
+      <div class="yr"><b>${c.year}</b><span class="ring">${titles[c.manager] > 1 ? titles[c.manager] + '× champ' : 'Champion'}</span></div>
+      <div class="tm">${esc(c.team)}</div>
+      <div class="mg">${esc(c.manager)}</div>
+      <div class="rc"><span>Regular season</span><b>${esc(c.record)}</b></div>
+    </article>`).join('');
+}
+
+function renderStandings(){
+  const y = $('#yearsel').value;
+  const reg = view === 'reg';
+  const rows = reg ? D.regular_season[y] : D.final_standings[y];
+  if(!rows){ $('#standings').innerHTML = `<div class="err">No ${reg?'regular season':'final'} data for ${y}.</div>`; return; }
+  const showPts = reg && rows.some(r => r.points != null);
+  $('#standings').innerHTML = `
+   <div class="tablewrap">
+    <div class="tcap">${y} ${reg ? 'Regular Season' : 'Final'} Standings
+      <small>${reg ? 'Ordered by regular-season finish' : 'Ordered by playoff result'}</small></div>
+    <table><thead><tr>
+      <th class="rk">#</th><th>Team</th><th class="hide-s">Manager</th><th>Record</th>
+      ${showPts ? '<th class="num">Points</th>' : ''}
+    </tr></thead><tbody>
+    ${rows.map(r => `<tr class="${r.rank<=3?'gold':''}">
+      <td class="rk">${medal(r.rank)}</td>
+      <td><div class="tname">${esc(r.team)}</div><div class="mname" style="display:none">${esc(r.manager)}</div></td>
+      <td class="hide-s mname">${esc(r.manager)}</td>
+      <td><span class="pill">${esc(r.record)}</span></td>
+      ${showPts ? `<td class="num">${n1(r.points)}</td>` : ''}
+    </tr>`).join('')}
+    </tbody></table></div>`;
+}
+
+function table(cap, sub, cols, rows){
+  return `<div class="tablewrap"><div class="tcap">${cap}<small>${sub}</small></div>
+    <table><thead><tr>${cols.map(c => `<th class="${c.cls||''}">${c.h}</th>`).join('')}</tr></thead>
+    <tbody>${rows}</tbody></table></div>`;
+}
+
+function renderRecords(){
+  const H = D.hall_of_fame;
+  const g = H.single_game_player, s = H.season_points, w = H.single_week_team;
+  const bg = Math.max(...g.map(x=>x.points)), bs = Math.max(...s.map(x=>x.points)), bw = Math.max(...w.map(x=>x.points));
+  $('#records').innerHTML =
+    table('Most Player Points — Single Game', 'Top individual performance each season',
+      [{h:'Year'},{h:'Player'},{h:'Pos / Team',cls:'hide-s'},{h:'Fantasy Team',cls:'hide-s'},{h:'Wk',cls:'num'},{h:'Points',cls:'num'}],
+      [...g].sort((a,b)=>b.year-a.year).map(r=>`<tr class="${r.points===bg?'gold':''}">
+        <td class="rk">${r.year}</td><td class="tname">${esc(r.player)}</td>
+        <td class="hide-s mname">${esc(r.pos)}</td><td class="hide-s mname">${esc(r.team)}</td>
+        <td class="num">${r.week}</td>
+        <td class="num ${r.points===bg?'best':''}">${n2(r.points)}${r.points===bg?' ★':''}</td></tr>`).join(''))
+  + table('Most Points — Single Week (Team)', 'Highest team score each season',
+      [{h:'Year'},{h:'Team'},{h:'Manager',cls:'hide-s'},{h:'Wk',cls:'num'},{h:'Points',cls:'num'}],
+      [...w].sort((a,b)=>b.year-a.year).map(r=>`<tr class="${r.points===bw?'gold':''}">
+        <td class="rk">${r.year}</td><td class="tname">${esc(r.team)}</td>
+        <td class="hide-s mname">${esc(r.manager)}</td><td class="num">${r.week}</td>
+        <td class="num ${r.points===bw?'best':''}">${n2(r.points)}${r.points===bw?' ★':''}</td></tr>`).join(''))
+  + table('Most Points — Full Season', 'Highest regular-season total each year',
+      [{h:'Year'},{h:'Team'},{h:'Manager',cls:'hide-s'},{h:'Total',cls:'num'}],
+      [...s].sort((a,b)=>b.year-a.year).map(r=>`<tr class="${r.points===bs?'gold':''}">
+        <td class="rk">${r.year}</td><td class="tname">${esc(r.team)}</td>
+        <td class="hide-s mname">${esc(r.manager)}</td>
+        <td class="num ${r.points===bs?'best':''}">${n2(r.points)}${r.points===bs?' ★':''}</td></tr>`).join(''));
+}
+
+function renderAllTime(){
+  $('#alltime').innerHTML = table('Career Leaderboard', 'All regular-season games on record',
+    [{h:'#',cls:'rk'},{h:'Manager'},{h:'Szns',cls:'num'},{h:'W–L',cls:'num'},{h:'Win %',cls:'num'},
+     {h:'PPG',cls:'num hide-s'},{h:'Titles',cls:'num'},{h:'Top 3',cls:'num hide-s'}],
+    D.all_time.map((m,i)=>`<tr class="${m.titles?'gold':''}">
+      <td class="rk">${i+1}</td>
+      <td class="tname">${esc(m.manager)}</td>
+      <td class="num">${m.seasons}</td>
+      <td class="num">${m.wins}–${m.losses}</td>
+      <td class="num">${m.pct.toFixed(3).replace(/^0/,'')}</td>
+      <td class="num hide-s">${n1(m.ppg)}</td>
+      <td class="num">${m.titles ? '🏆'.repeat(m.titles) : '—'}</td>
+      <td class="num hide-s">${m.podiums || '—'}</td></tr>`).join(''));
+}
+
+/* ---------------- wiring ---------------- */
+document.querySelectorAll('.tab').forEach(t => t.onclick = () => {
+  document.querySelectorAll('.tab').forEach(x => x.setAttribute('aria-selected', x === t));
+  document.querySelectorAll('.panel').forEach(p => p.hidden = p.id !== 'p-' + t.dataset.panel);
+});
+$('#btn-final').onclick = () => setView('final');
+$('#btn-reg').onclick = () => setView('reg');
+function setView(v){
+  view = v;
+  $('#btn-final').setAttribute('aria-pressed', v === 'final');
+  $('#btn-reg').setAttribute('aria-pressed', v === 'reg');
+  renderStandings();
+}
+
+function boot(data){
+  D = data;
+  const years = Object.keys(D.final_standings).map(Number).sort((a,b) => b - a);
+  $('#yearsel').innerHTML = years.map(y => `<option value="${y}">${y} Season</option>`).join('');
+  $('#yearsel').onchange = renderStandings;
+  renderHeader(); renderChampions(); renderStandings(); renderRecords(); renderAllTime();
+}
+
+fetch('data.json?v=' + Date.now())
+  .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
+  .then(boot)
+  .catch(e => {
+    $('#boot').hidden = false;
+    $('#boot').innerHTML = `<strong>Could not load data.json</strong> (${esc(e.message)}). ` +
+      `If you opened this file directly from your computer, browsers block local fetches — ` +
+      `run <code>python -m http.server</code> in this folder and visit localhost:8000 instead.`;
+  });
+</script>
+</body>
+</html>
