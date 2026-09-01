@@ -12,7 +12,7 @@
     2024,
     2025
   ],
-  "generated": "2026-08-24",
+  "generated": "2026-09-01",
   "manager_map": {
     "Chris P": "Christopher",
     "drako wells": "Drako",
@@ -698,15 +698,15 @@
       },
       {
         "rank": 5,
-        "team": "Team 5",
-        "manager": "",
+        "team": "Jonathan's Supreme Team",
+        "manager": "Jonathan Buggage",
         "record": "0-0",
         "points": 0.0
       },
       {
         "rank": 6,
-        "team": "Team 6",
-        "manager": "",
+        "team": "Chopped n Screwed ",
+        "manager": "Marcus Williams",
         "record": "0-0",
         "points": 0.0
       },
@@ -740,8 +740,8 @@
       },
       {
         "rank": 11,
-        "team": "Team 11",
-        "manager": "",
+        "team": "Michael's Magnificent Team",
+        "manager": "Michael Hogsett II",
         "record": "0-0",
         "points": 0.0
       },
@@ -1474,15 +1474,15 @@
       },
       {
         "rank": 5,
-        "team": "Team 5",
-        "manager": "",
+        "team": "Jonathan's Supreme Team",
+        "manager": "Jonathan Buggage",
         "record": "0-0",
         "points": 0.0
       },
       {
         "rank": 6,
-        "team": "Team 6",
-        "manager": "",
+        "team": "Chopped n Screwed ",
+        "manager": "Marcus Williams",
         "record": "0-0",
         "points": 0.0
       },
@@ -1516,8 +1516,8 @@
       },
       {
         "rank": 11,
-        "team": "Team 11",
-        "manager": "",
+        "team": "Michael's Magnificent Team",
+        "manager": "Michael Hogsett II",
         "record": "0-0",
         "points": 0.0
       },
@@ -1956,8 +1956,30 @@
       "podiums": 0
     },
     {
-      "manager": "",
-      "seasons": 3,
+      "manager": "Jonathan Buggage",
+      "seasons": 1,
+      "wins": 0,
+      "losses": 0,
+      "pct": 0,
+      "points": 0.0,
+      "ppg": 0,
+      "titles": 0,
+      "podiums": 0
+    },
+    {
+      "manager": "Marcus Williams",
+      "seasons": 1,
+      "wins": 0,
+      "losses": 0,
+      "pct": 0,
+      "points": 0.0,
+      "ppg": 0,
+      "titles": 0,
+      "podiums": 0
+    },
+    {
+      "manager": "Michael Hogsett II",
+      "seasons": 1,
       "wins": 0,
       "losses": 0,
       "pct": 0,
