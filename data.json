@@ -12,7 +12,7 @@
     2024,
     2025
   ],
-  "generated": "2026-09-01",
+  "generated": "2026-09-07",
   "manager_map": {
     "Chris P": "Christopher",
     "drako wells": "Drako",
@@ -22,6 +22,9 @@
     "Jaron Brown": "Jaron",
     "Justin Roberts": "Justin",
     "Breland James": "Breland",
+    "Michael Hogsett II": "Michael",
+    "Marcus Williams": "Bubba",
+    "Jonathan Buggage": "Johnathan",
     "Antoine Armstrong": "Antoine"
   },
   "champions": [
@@ -699,14 +702,14 @@
       {
         "rank": 5,
         "team": "Jonathan's Supreme Team",
-        "manager": "Jonathan Buggage",
+        "manager": "Johnathan",
         "record": "0-0",
         "points": 0.0
       },
       {
         "rank": 6,
         "team": "Chopped n Screwed ",
-        "manager": "Marcus Williams",
+        "manager": "Bubba",
         "record": "0-0",
         "points": 0.0
       },
@@ -741,7 +744,7 @@
       {
         "rank": 11,
         "team": "Michael's Magnificent Team",
-        "manager": "Michael Hogsett II",
+        "manager": "Michael",
         "record": "0-0",
         "points": 0.0
       },
@@ -1475,14 +1478,14 @@
       {
         "rank": 5,
         "team": "Jonathan's Supreme Team",
-        "manager": "Jonathan Buggage",
+        "manager": "Johnathan",
         "record": "0-0",
         "points": 0.0
       },
       {
         "rank": 6,
         "team": "Chopped n Screwed ",
-        "manager": "Marcus Williams",
+        "manager": "Bubba",
         "record": "0-0",
         "points": 0.0
       },
@@ -1517,7 +1520,7 @@
       {
         "rank": 11,
         "team": "Michael's Magnificent Team",
-        "manager": "Michael Hogsett II",
+        "manager": "Michael",
         "record": "0-0",
         "points": 0.0
       },
@@ -1726,7 +1729,7 @@
     },
     {
       "manager": "Michael",
-      "seasons": 4,
+      "seasons": 5,
       "wins": 31,
       "losses": 24,
       "pct": 0.564,
@@ -1924,7 +1927,7 @@
     },
     {
       "manager": "Bubba",
-      "seasons": 7,
+      "seasons": 8,
       "wins": 35,
       "losses": 61,
       "pct": 0.365,
@@ -1956,29 +1959,7 @@
       "podiums": 0
     },
     {
-      "manager": "Jonathan Buggage",
-      "seasons": 1,
-      "wins": 0,
-      "losses": 0,
-      "pct": 0,
-      "points": 0.0,
-      "ppg": 0,
-      "titles": 0,
-      "podiums": 0
-    },
-    {
-      "manager": "Marcus Williams",
-      "seasons": 1,
-      "wins": 0,
-      "losses": 0,
-      "pct": 0,
-      "points": 0.0,
-      "ppg": 0,
-      "titles": 0,
-      "podiums": 0
-    },
-    {
-      "manager": "Michael Hogsett II",
+      "manager": "Johnathan",
       "seasons": 1,
       "wins": 0,
       "losses": 0,
