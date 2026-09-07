@@ -24,7 +24,7 @@
     "Breland James": "Breland",
     "Michael Hogsett II": "Michael",
     "Marcus Williams": "Bubba",
-    "Jonathan Buggage": "Johnathan",
+    "Jonathan Buggage": "Jonathan",
     "Antoine Armstrong": "Antoine"
   },
   "champions": [
@@ -702,7 +702,7 @@
       {
         "rank": 5,
         "team": "Jonathan's Supreme Team",
-        "manager": "Johnathan",
+        "manager": "Jonathan",
         "record": "0-0",
         "points": 0.0
       },
@@ -1478,7 +1478,7 @@
       {
         "rank": 5,
         "team": "Jonathan's Supreme Team",
-        "manager": "Johnathan",
+        "manager": "Jonathan",
         "record": "0-0",
         "points": 0.0
       },
@@ -1817,7 +1817,7 @@
     },
     {
       "manager": "Jonathan",
-      "seasons": 1,
+      "seasons": 2,
       "wins": 8,
       "losses": 6,
       "pct": 0.571,
@@ -1955,17 +1955,6 @@
       "pct": 0.286,
       "points": 1532.0,
       "ppg": 109.4,
-      "titles": 0,
-      "podiums": 0
-    },
-    {
-      "manager": "Johnathan",
-      "seasons": 1,
-      "wins": 0,
-      "losses": 0,
-      "pct": 0,
-      "points": 0.0,
-      "ppg": 0,
       "titles": 0,
       "podiums": 0
     }
