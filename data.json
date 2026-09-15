@@ -12,7 +12,7 @@
     2024,
     2025
   ],
-  "generated": "2026-09-08",
+  "generated": "2026-09-15",
   "manager_map": {
     "Chris P": "Christopher",
     "drako wells": "Drako",
@@ -673,87 +673,87 @@
     "2026": [
       {
         "rank": 1,
-        "team": "    Johns Supreme Ass Whipping",
-        "manager": "Breland",
-        "record": "0-0",
-        "points": 0.0
+        "team": "Moore Money",
+        "manager": "Justin",
+        "record": "1-0",
+        "points": 169.06
       },
       {
         "rank": 2,
-        "team": "Michael's Magnificent Team",
-        "manager": "Michael",
-        "record": "0-0",
-        "points": 0.0
+        "team": "In Shough We Trust ",
+        "manager": "Antoine",
+        "record": "1-0",
+        "points": 157.56
       },
       {
         "rank": 3,
-        "team": "Aint No Snitchin ",
-        "manager": "Brantley",
-        "record": "0-0",
-        "points": 0.0
+        "team": "Mailman Jay",
+        "manager": "Jonathan",
+        "record": "1-0",
+        "points": 116.74
       },
       {
         "rank": 4,
-        "team": "JROB",
-        "manager": "Justin",
-        "record": "0-0",
-        "points": 0.0
+        "team": "\"LOVE n Happiness\"",
+        "manager": "Jaron",
+        "record": "1-0",
+        "points": 156.5
       },
       {
         "rank": 5,
-        "team": "Chris's Competitive Team",
-        "manager": "Christopher",
-        "record": "0-0",
-        "points": 0.0
+        "team": "Pack Attack",
+        "manager": "James",
+        "record": "1-0",
+        "points": 136.16
       },
       {
         "rank": 6,
-        "team": "In Shough We Trust ",
-        "manager": "Antoine",
-        "record": "0-0",
-        "points": 0.0
+        "team": "MH DOOMSDAY",
+        "manager": "Michael",
+        "record": "1-0",
+        "points": 129.46
       },
       {
         "rank": 7,
-        "team": "Chopped n Screwed ",
-        "manager": "Bubba",
-        "record": "0-0",
-        "points": 0.0
+        "team": "WE THE ONES \u261d\ud83c\udffe",
+        "manager": "Xavier",
+        "record": "0-1",
+        "points": 131.6
       },
       {
         "rank": 8,
-        "team": "Mailman Jay",
-        "manager": "Jonathan",
-        "record": "0-0",
-        "points": 0.0
+        "team": "Package Delayed ",
+        "manager": "Breland",
+        "record": "0-1",
+        "points": 112.6
       },
       {
         "rank": 9,
-        "team": "WE THE ONES \u261d\ud83c\udffe",
-        "manager": "Xavier",
-        "record": "0-0",
-        "points": 0.0
+        "team": "Aint No Snitchin ",
+        "manager": "Brantley",
+        "record": "0-1",
+        "points": 102.32
       },
       {
         "rank": 10,
-        "team": "drake shiesty",
-        "manager": "Drako",
-        "record": "0-0",
-        "points": 0.0
+        "team": "No Love Lost ",
+        "manager": "Christopher",
+        "record": "0-1",
+        "points": 97.5
       },
       {
         "rank": 11,
-        "team": "Pack Attack",
-        "manager": "James",
-        "record": "0-0",
-        "points": 0.0
+        "team": "drake shiesty",
+        "manager": "Drako",
+        "record": "0-1",
+        "points": 85.36
       },
       {
         "rank": 12,
-        "team": "\"LOVE n Happiness\"",
-        "manager": "Jaron",
-        "record": "0-0",
-        "points": 0.0
+        "team": "Chopped n Screwed ",
+        "manager": "Bubba",
+        "record": "0-1",
+        "points": 85.06
       }
     ]
   },
@@ -1449,92 +1449,100 @@
     "2026": [
       {
         "rank": 1,
-        "team": "    Johns Supreme Ass Whipping",
-        "manager": "Breland",
-        "record": "0-0",
-        "points": 0.0
+        "team": "Moore Money",
+        "manager": "Justin",
+        "record": "1-0",
+        "points": 169.06
       },
       {
         "rank": 2,
-        "team": "Michael's Magnificent Team",
-        "manager": "Michael",
-        "record": "0-0",
-        "points": 0.0
+        "team": "In Shough We Trust ",
+        "manager": "Antoine",
+        "record": "1-0",
+        "points": 157.56
       },
       {
         "rank": 3,
-        "team": "Aint No Snitchin ",
-        "manager": "Brantley",
-        "record": "0-0",
-        "points": 0.0
+        "team": "Mailman Jay",
+        "manager": "Jonathan",
+        "record": "1-0",
+        "points": 116.74
       },
       {
         "rank": 4,
-        "team": "JROB",
-        "manager": "Justin",
-        "record": "0-0",
-        "points": 0.0
+        "team": "\"LOVE n Happiness\"",
+        "manager": "Jaron",
+        "record": "1-0",
+        "points": 156.5
       },
       {
         "rank": 5,
-        "team": "Chris's Competitive Team",
-        "manager": "Christopher",
-        "record": "0-0",
-        "points": 0.0
+        "team": "Pack Attack",
+        "manager": "James",
+        "record": "1-0",
+        "points": 136.16
       },
       {
         "rank": 6,
-        "team": "In Shough We Trust ",
-        "manager": "Antoine",
-        "record": "0-0",
-        "points": 0.0
+        "team": "MH DOOMSDAY",
+        "manager": "Michael",
+        "record": "1-0",
+        "points": 129.46
       },
       {
         "rank": 7,
-        "team": "Chopped n Screwed ",
-        "manager": "Bubba",
-        "record": "0-0",
-        "points": 0.0
+        "team": "WE THE ONES \u261d\ud83c\udffe",
+        "manager": "Xavier",
+        "record": "0-1",
+        "points": 131.6
       },
       {
         "rank": 8,
-        "team": "Mailman Jay",
-        "manager": "Jonathan",
-        "record": "0-0",
-        "points": 0.0
+        "team": "Package Delayed ",
+        "manager": "Breland",
+        "record": "0-1",
+        "points": 112.6
       },
       {
         "rank": 9,
-        "team": "WE THE ONES \u261d\ud83c\udffe",
-        "manager": "Xavier",
-        "record": "0-0",
-        "points": 0.0
+        "team": "Aint No Snitchin ",
+        "manager": "Brantley",
+        "record": "0-1",
+        "points": 102.32
       },
       {
         "rank": 10,
-        "team": "drake shiesty",
-        "manager": "Drako",
-        "record": "0-0",
-        "points": 0.0
+        "team": "No Love Lost ",
+        "manager": "Christopher",
+        "record": "0-1",
+        "points": 97.5
       },
       {
         "rank": 11,
-        "team": "Pack Attack",
-        "manager": "James",
-        "record": "0-0",
-        "points": 0.0
+        "team": "drake shiesty",
+        "manager": "Drako",
+        "record": "0-1",
+        "points": 85.36
       },
       {
         "rank": 12,
-        "team": "\"LOVE n Happiness\"",
-        "manager": "Jaron",
-        "record": "0-0",
-        "points": 0.0
+        "team": "Chopped n Screwed ",
+        "manager": "Bubba",
+        "record": "0-1",
+        "points": 85.06
       }
     ]
   },
   "hall_of_fame": {
     "single_game_player": [
+      {
+        "year": 2026,
+        "player": "Caleb Williams",
+        "pos": "QB - CHI",
+        "team": "In Shough We Trust ",
+        "week": 1,
+        "points": 41.26
+      },
       {
         "year": 2025,
         "player": "J. Gibbs",
@@ -1603,9 +1611,9 @@
     "season_points": [
       {
         "year": 2026,
-        "team": "    Johns Supreme Ass Whipping",
-        "manager": "Breland",
-        "points": 0.0
+        "team": "Moore Money",
+        "manager": "Justin",
+        "points": 169.06
       },
       {
         "year": 2025,
@@ -1657,6 +1665,13 @@
       }
     ],
     "single_week_team": [
+      {
+        "year": 2026,
+        "team": "Moore Money",
+        "manager": "Justin",
+        "week": 1,
+        "points": 169.06
+      },
       {
         "year": 2025,
         "team": "WE THE ONES",
@@ -1720,43 +1735,43 @@
       "manager": "Drako",
       "seasons": 9,
       "wins": 62,
-      "losses": 47,
-      "pct": 0.569,
-      "points": 13292.0,
-      "ppg": 121.9,
+      "losses": 48,
+      "pct": 0.564,
+      "points": 13377.4,
+      "ppg": 121.6,
       "titles": 2,
       "podiums": 4
     },
     {
       "manager": "Michael",
       "seasons": 5,
-      "wins": 31,
+      "wins": 32,
       "losses": 24,
-      "pct": 0.564,
-      "points": 6807.0,
-      "ppg": 123.8,
+      "pct": 0.571,
+      "points": 6936.5,
+      "ppg": 123.9,
       "titles": 2,
-      "podiums": 4
+      "podiums": 3
     },
     {
       "manager": "Christopher",
       "seasons": 9,
       "wins": 68,
-      "losses": 41,
-      "pct": 0.624,
-      "points": 13493.0,
-      "ppg": 123.8,
+      "losses": 42,
+      "pct": 0.618,
+      "points": 13590.5,
+      "ppg": 123.5,
       "titles": 1,
       "podiums": 5
     },
     {
       "manager": "Jaron",
       "seasons": 9,
-      "wins": 66,
+      "wins": 67,
       "losses": 43,
-      "pct": 0.606,
-      "points": 13257.0,
-      "ppg": 121.6,
+      "pct": 0.609,
+      "points": 13413.5,
+      "ppg": 121.9,
       "titles": 1,
       "podiums": 4
     },
@@ -1775,56 +1790,56 @@
       "manager": "Xavier",
       "seasons": 9,
       "wins": 49,
-      "losses": 60,
-      "pct": 0.45,
-      "points": 12983.0,
-      "ppg": 119.1,
+      "losses": 61,
+      "pct": 0.445,
+      "points": 13114.6,
+      "ppg": 119.2,
       "titles": 1,
-      "podiums": 2
-    },
-    {
-      "manager": "Brantley",
-      "seasons": 5,
-      "wins": 34,
-      "losses": 22,
-      "pct": 0.607,
-      "points": 6660.0,
-      "ppg": 118.9,
-      "titles": 0,
       "podiums": 2
     },
     {
       "manager": "Justin",
       "seasons": 9,
-      "wins": 54,
-      "losses": 55,
-      "pct": 0.495,
-      "points": 13274.0,
-      "ppg": 121.8,
-      "titles": 0,
-      "podiums": 2
-    },
-    {
-      "manager": "Breland",
-      "seasons": 9,
       "wins": 55,
-      "losses": 54,
-      "pct": 0.505,
-      "points": 12399.0,
-      "ppg": 113.8,
+      "losses": 55,
+      "pct": 0.5,
+      "points": 13443.1,
+      "ppg": 122.2,
       "titles": 0,
-      "podiums": 1
+      "podiums": 3
     },
     {
       "manager": "Jonathan",
       "seasons": 2,
-      "wins": 8,
+      "wins": 9,
       "losses": 6,
-      "pct": 0.571,
-      "points": 1681.0,
-      "ppg": 120.1,
+      "pct": 0.6,
+      "points": 1797.7,
+      "ppg": 119.8,
       "titles": 0,
-      "podiums": 0
+      "podiums": 1
+    },
+    {
+      "manager": "Brantley",
+      "seasons": 5,
+      "wins": 34,
+      "losses": 23,
+      "pct": 0.596,
+      "points": 6762.3,
+      "ppg": 118.6,
+      "titles": 0,
+      "podiums": 1
+    },
+    {
+      "manager": "Antoine",
+      "seasons": 5,
+      "wins": 22,
+      "losses": 34,
+      "pct": 0.393,
+      "points": 6288.6,
+      "ppg": 112.3,
+      "titles": 0,
+      "podiums": 1
     },
     {
       "manager": "Broderick",
@@ -1860,6 +1875,17 @@
       "podiums": 0
     },
     {
+      "manager": "Breland",
+      "seasons": 9,
+      "wins": 55,
+      "losses": 55,
+      "pct": 0.5,
+      "points": 12511.6,
+      "ppg": 113.7,
+      "titles": 0,
+      "podiums": 0
+    },
+    {
       "manager": "Ameer",
       "seasons": 2,
       "wins": 12,
@@ -1884,11 +1910,11 @@
     {
       "manager": "James",
       "seasons": 3,
-      "wins": 12,
+      "wins": 13,
       "losses": 16,
-      "pct": 0.429,
-      "points": 3229.0,
-      "ppg": 115.3,
+      "pct": 0.448,
+      "points": 3365.2,
+      "ppg": 116.0,
       "titles": 0,
       "podiums": 0
     },
@@ -1915,24 +1941,13 @@
       "podiums": 0
     },
     {
-      "manager": "Antoine",
-      "seasons": 5,
-      "wins": 21,
-      "losses": 34,
-      "pct": 0.382,
-      "points": 6131.0,
-      "ppg": 111.5,
-      "titles": 0,
-      "podiums": 0
-    },
-    {
       "manager": "Bubba",
       "seasons": 8,
       "wins": 35,
-      "losses": 61,
-      "pct": 0.365,
-      "points": 10201.0,
-      "ppg": 106.3,
+      "losses": 62,
+      "pct": 0.361,
+      "points": 10286.1,
+      "ppg": 106.0,
       "titles": 0,
       "podiums": 0
     },
